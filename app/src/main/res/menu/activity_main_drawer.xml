@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="@string/nav_home_main"/>
+        <item
+                android:id="@+id/nav_singlefeed"
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="@string/nav_singlefeed_main"/>
+        <item
+                android:id="@+id/nav_favfeed"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="@string/nav_favfeed_main"/>
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/nav_feed_management"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="@string/nav_feed_management_main"/>
+        <!--
+        this activity is deprecated.
+        <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="@string/nav_settings_main"/>
+                -->
+        <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/nav_about_main"/>
+    </group>
+
+</menu>

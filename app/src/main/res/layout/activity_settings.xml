@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="io.github.bctnry.tsubasareader.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="?attr/actionBarTheme"
+            android:minHeight="?attr/actionBarSize" android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" android:id="@+id/toolbar_settings"/>
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_below="@+id/toolbar_settings"
+            android:layout_alignParentStart="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:padding="24dp">
+                <TextView
+                        android:text="@string/prompt_lbl_feedSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView5"
+                        android:textColor="@android:color/black"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@+id/tfFeedSize_settings"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:padding="24dp">
+                <Button
+                        android:text="@android:string/ok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button2" android:layout_weight="1"/>
+                <Button
+                        android:text="@android:string/no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

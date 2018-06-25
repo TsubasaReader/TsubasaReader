@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TsubasaReader</string>
+    <string name="version_string">v20180625</string>
+    <string name="copyright">© Sebastian Lin, 2018</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="greeting_1">Welcome, fellow reader.</string>
+    <string name="greeting_2">Hope you have a nice day.</string>
+
+    <!-- common prompts for feed managing. -->
+    <string name="prompt_lbl_feedName">Feed name (local):</string>
+    <string name="prompt_lbl_feedURL">Feed URL:</string>
+    <string name="prompt_lbl_feedType">Feed type:</string>
+    <string-array name="feedType">
+        <item>RSS</item>
+        <item>Atom</item>
+    </string-array>
+
+    <!-- AboutActivity -->
+    <string name="about_title">About</string>
+
+    <!-- FeedManagementActivity -->
+    <string name="feedManagement_title">Feed Management</string>
+
+    <!-- FeedAddActivity -->
+    <string name="feedAdd_title">Add feed</string>
+
+    <!-- FeedEditActivity -->
+    <string name="feedEdit_title">Configure feed</string>
+
+    <!-- SettingsActivity -->
+    <string name="settings_title">Settings</string>
+    <string name="feedEdit_lbl_feedRemove">Remove this feed</string>
+    <string name="feedManagement_lbl_addFeed">Add feed</string>
+    <string name="prompt_lbl_feedSize"># of feeds fetched at one time:</string>
+
+    <!-- FeedListActivity -->
+    <string name="feedList_title">Choose feed</string>
+
+    <!-- FavouriteFeedtivity -->
+    <string name="favouriteFeed_title">Favourite feed</string>
+
+
+    <string name="nav_home_main">Home</string>
+    <string name="nav_singlefeed_main">Read from source</string>
+    <string name="nav_favfeed_main">Favourite feed</string>
+    <string name="nav_feed_management_main">Manage Feed</string>
+    <string name="nav_settings_main">Settings</string>
+    <string name="nav_about_main">About</string>
+    <string name="feedDetail_share">Share</string>
+    <string name="feeDetail_openFeedLink">Open link in browser</string>
+    <string name="feedDetail_saveToFavourite">Save to favourite</string>
+    <string name="favfeed_delete">Delete from favourite</string>
+    <string name="backup_saveToFile">Save to file</string>
+    <string name="backup_loadFromFile">Load from file</string>
+    <string name="feedManagement_loadFromFile">Load from file</string>
+    <string name="feedManagement_saveToFile">Save to file</string>
+    <string name="feedManagement_clearFeed">Clear feed</string>
+    <string name="file_save_here">Save here</string>
+
+</resources>

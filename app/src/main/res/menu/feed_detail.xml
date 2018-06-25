@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/feedDetail_share" android:id="@+id/feedDetail_share"
+          android:onClick="menuShare_onClick" app:showAsAction="ifRoom" android:icon="@android:drawable/ic_menu_share"/>
+
+    <item android:title="@string/feeDetail_openFeedLink" android:id="@+id/feedDetail_openFeedLink"
+          android:onClick="menuOpenFeedLink_onClick"/>
+
+    <item android:title="@string/feedDetail_saveToFavourite" android:id="@+id/feedDetail_saveToFavourite"
+          android:onClick="menuSaveToFavourite_onClick" app:showAsAction="ifRoom"/>
+</menu>

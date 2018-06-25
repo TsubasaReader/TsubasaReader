@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+            android:id="@+id/feedManagement_addEntitySource"
+            android:title="@string/feedManagement_lbl_addFeed"
+            android:onClick="menuAddEntitySource_onClick"
+            app:showAsAction="never|ifRoom" android:icon="@android:drawable/ic_menu_add">
+    </item>
+    <item android:title="@string/feedManagement_clearFeed"
+          android:id="@+id/feedManagement_clearFeed"
+          android:onClick="menuClearFeed_onClick" app:showAsAction="ifRoom"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+    <item android:title="@string/feedManagement_loadFromFile"
+          android:id="@+id/feedManagement_loadFomFile"
+          android:onClick="menuLoadFromFile_onClick" app:showAsAction="ifRoom"
+          android:icon="@android:drawable/ic_menu_set_as"/>
+    <item android:title="@string/feedManagement_saveToFile"
+          android:id="@+id/feedManagement_saveToFile"
+          android:onClick="menuSaveToFile_onClick" app:showAsAction="never"
+          android:icon="@android:drawable/ic_menu_save"/>
+</menu>
